@@ -1,0 +1,3 @@
+/home/toasunzce/Documents/453501/ОАиП/LR8/task1/build/CMakeFiles/application.dir
+/home/toasunzce/Documents/453501/ОАиП/LR8/task1/build/CMakeFiles/edit_cache.dir
+/home/toasunzce/Documents/453501/ОАиП/LR8/task1/build/CMakeFiles/rebuild_cache.dir

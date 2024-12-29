@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/build",
+  "command": "/usr/bin/g++-9   -g -std=gnu++17 -o CMakeFiles/application.dir/main.cpp.o -c /home/toasunzce/Documents/453501/ОАиП/LR8/task2/main.cpp",
+  "file": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/main.cpp",
+  "output": "CMakeFiles/application.dir/main.cpp.o"
+},
+{
+  "directory": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/build",
+  "command": "/usr/bin/g++-9   -g -std=gnu++17 -o CMakeFiles/application.dir/manag-txt-funcs.cpp.o -c /home/toasunzce/Documents/453501/ОАиП/LR8/task2/manag-txt-funcs.cpp",
+  "file": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/manag-txt-funcs.cpp",
+  "output": "CMakeFiles/application.dir/manag-txt-funcs.cpp.o"
+},
+{
+  "directory": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/build",
+  "command": "/usr/bin/g++-9   -g -std=gnu++17 -o CMakeFiles/application.dir/manag-ent-funcs.cpp.o -c /home/toasunzce/Documents/453501/ОАиП/LR8/task2/manag-ent-funcs.cpp",
+  "file": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/manag-ent-funcs.cpp",
+  "output": "CMakeFiles/application.dir/manag-ent-funcs.cpp.o"
+},
+{
+  "directory": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/build",
+  "command": "/usr/bin/g++-9   -g -std=gnu++17 -o CMakeFiles/application.dir/manag-out-funcs.cpp.o -c /home/toasunzce/Documents/453501/ОАиП/LR8/task2/manag-out-funcs.cpp",
+  "file": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/manag-out-funcs.cpp",
+  "output": "CMakeFiles/application.dir/manag-out-funcs.cpp.o"
+},
+{
+  "directory": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/build",
+  "command": "/usr/bin/g++-9   -g -std=gnu++17 -o CMakeFiles/application.dir/mem-funcs.cpp.o -c /home/toasunzce/Documents/453501/ОАиП/LR8/task2/mem-funcs.cpp",
+  "file": "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/mem-funcs.cpp",
+  "output": "CMakeFiles/application.dir/mem-funcs.cpp.o"
+}
+]

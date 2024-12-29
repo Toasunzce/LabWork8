@@ -1,0 +1,1 @@
+/usr/bin/g++-9 -g "CMakeFiles/application.dir/manag-binary-funcs.cpp.o" "CMakeFiles/application.dir/manag-ent-funcs.cpp.o" "CMakeFiles/application.dir/manag-out-funcs.cpp.o" "CMakeFiles/application.dir/mem-funcs.cpp.o" CMakeFiles/application.dir/main.cpp.o -o application 

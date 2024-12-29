@@ -1,0 +1,60 @@
+1
+Leo Tolstoy
+War and Peace
+1869
+1225
+Russian Messenger
+2
+Fyodor Dostoevsky
+Crime and Punishment
+1866
+671
+Saint Petersburg
+3
+Mark Twain
+The Adventures of Tom Sawyer
+1884
+300
+Chatto & Windus
+4
+Ernest Hemingway
+The Old Man and the Sea
+1952
+127
+Cuba
+5
+Virginia Woolf
+Mrs Dalloway
+1925
+200
+Hogarth Press
+6
+George Orwell
+1984
+1949
+328
+London
+7
+Jane Austen
+Pride and Prejudice
+1813
+432
+T. Egerton
+8
+J.K. Rowling
+Harry Potter and the Sorcerer's Stone
+1997
+309
+Bloomsbury
+9
+Charles Dickens
+A Tale of Two Cities
+1859
+544
+London
+10
+F. Scott Fitzgerald
+The Great Gatsby
+1925
+218
+Scribner's Sons
