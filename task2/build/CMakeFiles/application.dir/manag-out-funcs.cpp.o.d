@@ -1,5 +1,5 @@
 CMakeFiles/application.dir/manag-out-funcs.cpp.o: \
- /home/toasunzce/Documents/453501/ОАиП/LR8/task1/manag-out-funcs.cpp \
+ /home/toasunzce/Documents/453501/ОАиП/LR8/task2/manag-out-funcs.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/9/iostream \
  /usr/include/x86_64-linux-gnu/c++/9/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/9/bits/os_defines.h \
@@ -143,5 +143,5 @@ CMakeFiles/application.dir/manag-out-funcs.cpp.o: \
  /usr/include/c++/9/bits/ostream.tcc /usr/include/c++/9/istream \
  /usr/include/c++/9/bits/istream.tcc /usr/include/c++/9/cstring \
  /usr/include/string.h /usr/include/strings.h \
- /home/toasunzce/Documents/453501/ОАиП/LR8/task1/header.h \
- /home/toasunzce/Documents/453501/ОАиП/LR8/task1/struct.h
+ /home/toasunzce/Documents/453501/ОАиП/LR8/task2/header.h \
+ /home/toasunzce/Documents/453501/ОАиП/LR8/task2/struct.h

@@ -1,9 +1,7 @@
-#include "header.h"
-
 #include <iostream>
-#include <cstring>
-#include <fstream>
-#include <limits>
+#include "header.h"
+#include "struct.h"
+
 
 void allocateOneMoreStructure(Product*& production, short size) {
     if (size == 0) {

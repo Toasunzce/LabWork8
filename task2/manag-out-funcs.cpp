@@ -1,9 +1,8 @@
 #include <iostream>
-#include <cstring>
-#include <fstream>
 #include <limits>
-
+#include <cstring>
 #include "header.h"
+#include "struct.h"
 
 void printArrayBook(Book* books, short book_amount) {
 

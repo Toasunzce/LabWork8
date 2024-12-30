@@ -1,8 +1,5 @@
 #include <iostream>
-#include <cstring>
-#include <fstream>
-#include <limits>
-
+#include "struct.h"
 #include "header.h"
 
 void allocateOneMoreStructure(Book*& books, short size) {

@@ -1,9 +1,8 @@
-#include "header.h"
-
 #include <iostream>
-#include <cstring>
-#include <fstream>
 #include <limits>
+#include <cstring>
+#include "header.h"
+#include "struct.h"
 
 void printArrayProduct(Product* production, short product_amount) {
 

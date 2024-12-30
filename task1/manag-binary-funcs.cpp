@@ -1,9 +1,9 @@
-#include "header.h"
-
 #include <iostream>
-#include <cstring>
 #include <fstream>
 #include <limits>
+#include <cstring>
+#include "header.h"
+#include "struct.h"
 
 void writeToBinaryFile(const char* filename, Product* production, short product_amount) {
 

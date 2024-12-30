@@ -1,9 +1,7 @@
 #include <iostream>
-#include <cstring>
-#include <fstream>
-#include <limits>
-
 #include "header.h"
+#include "struct.h"
+
 const char* filename = "/home/toasunzce/Documents/453501/ОАиП/LR8/task2/library.txt";
 
 
@@ -37,7 +35,6 @@ int main() {
             std::cout << "\e[0;31m" << "Wrong input! Tru to input correct one: " << "\e[0m";
             positiveIntNumberInput(menu);
         }
-        std::cout << "\033[2J\033[1;1H";
 
         switch (menu) {
             case 1: {
@@ -55,35 +52,26 @@ int main() {
                     positiveIntNumberInput(submenu);
                 }
 
-                std::cout << "\033[2J\033[1;1H";
                 switch (submenu) {
                     case 1: {
-                        std::cout << "\033[2J\033[1;1H";
                         std::cout << "Enter amount of books: ";
                         int array_size;
                         positiveIntNumberInput(array_size);
                         std::cout << '\n';
                         books = enterNewArrayBook(array_size);
                         book_amount = array_size;
-                        std::cout << "\033[2J\033[1;1H";
                         break;
 
                     }
                     case 2: {
-                        std::cout << "\033[2J\033[1;1H";
                         books = enterNewArrayBookWhile(book_amount);
-                        std::cout << "\033[2J\033[1;1H";
                         break;
-
                     }
                     case 3: {
-                        std::cout << "\033[2J\033[1;1H";
                         books = enterNewArrayBookDialogue(book_amount);
-                        std::cout << "\033[2J\033[1;1H";
                         break;
                     }
                     case 4: {
-                        std::cout << "\033[2J\033[1;1H";
                         break;
                     }
                     break;
@@ -92,58 +80,40 @@ int main() {
                 
             }
             case 2: {
-                std::cout << "\033[2J\033[1;1H";
                 printArrayBook(books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 3: {
-                std::cout << "\033[2J\033[1;1H";
                 allocateOneMoreStructure(books, book_amount);
                 addNewBookToArray(books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 4: {
-                std::cout << "\033[2J\033[1;1H";
                 searchInBookArray(books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 5: {
-                std::cout << "\033[2J\033[1;1H";
                 editBook(books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 6: {
-                std::cout << "\033[2J\033[1;1H";
                 deleteBook(books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 7: {
-                std::cout << "\033[2J\033[1;1H";
                 shekerSortForNumber(books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 8: {
-                std::cout << "\033[2J\033[1;1H";
                 sortedListOfBooks(books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 9: {
-                std::cout << "\033[2J\033[1;1H";
                 writeToTxtFile(filename, books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;
             }
             case 10: {
-                std::cout << "\033[2J\033[1;1H";
                 editTxt(filename, books, book_amount);
-                std::cout << "\033[2J\033[1;1H";
                 break;    
             }
             case 11: {
@@ -157,9 +127,5 @@ int main() {
     delete[] books;
     books = nullptr;
 
-    return 0;
-
-
-    delete[] books;
     return 0;
 }

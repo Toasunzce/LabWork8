@@ -1,10 +1,9 @@
 #include <iostream>
-#include <cstring>
 #include <fstream>
 #include <limits>
-
+#include <cstring>
 #include "header.h"
-
+#include "struct.h"
 
 
 void writeToTxtFile(const char* filename, Book* books, short book_amount) {

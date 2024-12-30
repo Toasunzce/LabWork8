@@ -1,9 +1,8 @@
 #include <iostream>
-#include <cstring>
-#include <fstream>
 #include <limits>
-
+#include <cstring>
 #include "header.h"
+#include "struct.h"
 
 void stringInput(char* string, int size) {
     std::cin.getline(string, size);
